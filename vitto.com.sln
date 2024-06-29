@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vitto.com", "vitto.com\vitto.com.csproj", "{63B498AC-0DD6-43FF-AEE8-E0A6F7DE4695}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{FEE51F8F-6CF4-45EB-8D47-DF9F374C217C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E4ABD2AE-F71B-40D3-BAD9-73098EF6C762}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EFC13756-37E0-4D09-95CF-757A94D8D8A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vittto.com.Common", "Vittto.com.Common\Vittto.com.Common.csproj", "{538D0BC8-1B1D-4717-B27C-90E7BE33DEC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manager", "Manager", "{DA402F2A-89EB-484E-979F-FDE6ABD1A7BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vitto.com.Manager", "Vitto.com.Manager\Vitto.com.Manager.csproj", "{2530DC71-E9E2-403E-8130-64FF980593E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vitto.com.Data", "Vitto.com.Data\Vitto.com.Data.csproj", "{B2E0FCF3-F746-440B-8995-0EE2210A61DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63B498AC-0DD6-43FF-AEE8-E0A6F7DE4695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B498AC-0DD6-43FF-AEE8-E0A6F7DE4695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B498AC-0DD6-43FF-AEE8-E0A6F7DE4695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B498AC-0DD6-43FF-AEE8-E0A6F7DE4695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538D0BC8-1B1D-4717-B27C-90E7BE33DEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538D0BC8-1B1D-4717-B27C-90E7BE33DEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538D0BC8-1B1D-4717-B27C-90E7BE33DEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538D0BC8-1B1D-4717-B27C-90E7BE33DEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2530DC71-E9E2-403E-8130-64FF980593E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2530DC71-E9E2-403E-8130-64FF980593E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2530DC71-E9E2-403E-8130-64FF980593E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2530DC71-E9E2-403E-8130-64FF980593E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E0FCF3-F746-440B-8995-0EE2210A61DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E0FCF3-F746-440B-8995-0EE2210A61DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E0FCF3-F746-440B-8995-0EE2210A61DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E0FCF3-F746-440B-8995-0EE2210A61DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{538D0BC8-1B1D-4717-B27C-90E7BE33DEC8} = {E4ABD2AE-F71B-40D3-BAD9-73098EF6C762}
+		{2530DC71-E9E2-403E-8130-64FF980593E6} = {DA402F2A-89EB-484E-979F-FDE6ABD1A7BF}
+		{B2E0FCF3-F746-440B-8995-0EE2210A61DD} = {FEE51F8F-6CF4-45EB-8D47-DF9F374C217C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FD2D73C-6E75-4EBC-9EE7-7C88E839EAE4}
+	EndGlobalSection
+EndGlobal
